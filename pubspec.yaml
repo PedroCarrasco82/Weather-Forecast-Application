@@ -23,6 +23,8 @@ dependencies:
   cupertino_icons: ^0.1.2
   http: ^0.12.0+2
   geolocator: ^5.1.5
+  flutter_svg: ^0.15.0
+  diacritic: ^0.1.1
 
 dev_dependencies:
   flutter_dotenv: ^2.1.0
@@ -35,4 +37,21 @@ flutter:
 
   assets:
     - .env
+    - assets/images/hail.svg
+    - assets/images/rain.svg
+    - assets/images/snow.svg
+    - assets/images/storm.svg
+    - assets/images/clear_day.svg
+    - assets/images/clear_night.svg
+    - assets/images/cloud.svg
+    - assets/images/cloudly_day.svg
+    - assets/images/cloudly_night.svg
+    - assets/images/fog.svg
+    - assets/images/none_day.svg
+    - assets/images/none_night.svg
+    - assets/images/wind_speedy.svg
+    - assets/images/sunset.svg
+    - assets/images/sunrise.svg
+    - assets/images/humidity.svg
+    - assets/images/thermometer.svg
 
